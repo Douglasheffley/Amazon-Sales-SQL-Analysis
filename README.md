@@ -13,6 +13,7 @@
 # Insights/Analysis
 
 1.
+[1](/1_Categories.sql/)
 ```SQL
 SELECT
     a.category,
@@ -28,6 +29,9 @@ HAVING SUM(a.yearly_sales) > (
 )
 ORDER BY total_sales DESC;
 ```
+
+[1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)
+
 ---
 
 # Conclusion
