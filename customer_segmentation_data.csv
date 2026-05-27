@@ -1,0 +1,101 @@
+﻿Product_ID,AgeGroup,Region,PurchaseChannel,CustomerSatisfactionScore
+AZ1001,35-44,Europe,Online,4.1
+AZ1002,18-24,Europe,Online,4.3
+AZ1003,55+,Asia-Pacific,Online,3.6
+AZ1004,18-24,South America,Online,3.1
+AZ1005,45-54,North America,Mobile App,3.7
+AZ1006,18-24,Europe,Retail,3.6
+AZ1007,35-44,Europe,Mobile App,4.2
+AZ1008,25-34,Europe,Retail,4.1
+AZ1009,18-24,Asia-Pacific,Retail,4.8
+AZ1010,45-54,South America,Mobile App,4.1
+AZ1011,45-54,South America,Retail,3.1
+AZ1012,25-34,South America,Mobile App,4.1
+AZ1013,18-24,Asia-Pacific,Mobile App,3
+AZ1014,55+,North America,Mobile App,3.3
+AZ1015,18-24,Asia-Pacific,Retail,4.7
+AZ1016,25-34,North America,Online,4.1
+AZ1017,45-54,Europe,Retail,4.9
+AZ1018,45-54,Asia-Pacific,Retail,3.1
+AZ1019,25-34,Europe,Online,4.8
+AZ1020,25-34,Asia-Pacific,Mobile App,4.8
+AZ1021,45-54,Europe,Online,3.9
+AZ1022,18-24,North America,Retail,3.4
+AZ1023,25-34,Asia-Pacific,Retail,4.7
+AZ1024,55+,North America,Online,4
+AZ1025,25-34,South America,Online,3.6
+AZ1026,35-44,Europe,Online,3.1
+AZ1027,25-34,North America,Mobile App,4.4
+AZ1028,55+,Europe,Mobile App,4.2
+AZ1029,35-44,Europe,Retail,3.6
+AZ1030,55+,North America,Online,3.7
+AZ1031,35-44,Europe,Retail,5
+AZ1032,35-44,North America,Online,3.3
+AZ1033,35-44,Europe,Mobile App,4.8
+AZ1034,45-54,Asia-Pacific,Online,3.5
+AZ1035,45-54,North America,Online,3.1
+AZ1036,25-34,South America,Online,4.9
+AZ1037,25-34,North America,Retail,4.2
+AZ1038,25-34,South America,Online,3.8
+AZ1039,18-24,South America,Online,3.9
+AZ1040,18-24,Europe,Retail,3.6
+AZ1041,35-44,North America,Online,3.5
+AZ1042,35-44,Asia-Pacific,Retail,3.4
+AZ1043,18-24,Europe,Retail,4.2
+AZ1044,55+,Asia-Pacific,Mobile App,3.3
+AZ1045,25-34,Asia-Pacific,Retail,3.9
+AZ1046,45-54,Europe,Mobile App,3.3
+AZ1047,55+,Asia-Pacific,Online,4.6
+AZ1048,25-34,South America,Mobile App,4.3
+AZ1049,45-54,South America,Retail,4.5
+AZ1050,25-34,South America,Online,3.3
+AZ1051,55+,Asia-Pacific,Retail,4.7
+AZ1052,45-54,South America,Retail,4.6
+AZ1053,35-44,South America,Online,4.8
+AZ1054,25-34,South America,Mobile App,3.7
+AZ1055,25-34,South America,Retail,4.7
+AZ1056,35-44,Asia-Pacific,Retail,4.5
+AZ1057,35-44,South America,Retail,3.8
+AZ1058,55+,North America,Retail,3.9
+AZ1059,35-44,South America,Retail,3.8
+AZ1060,45-54,North America,Mobile App,4.3
+AZ1061,25-34,North America,Mobile App,4.1
+AZ1062,35-44,Asia-Pacific,Online,4.6
+AZ1063,55+,North America,Retail,4.9
+AZ1064,25-34,North America,Mobile App,3.2
+AZ1065,45-54,Asia-Pacific,Online,4.6
+AZ1066,45-54,Europe,Retail,4.2
+AZ1067,55+,Asia-Pacific,Retail,4.8
+AZ1068,55+,South America,Retail,3.4
+AZ1069,55+,Asia-Pacific,Mobile App,4.4
+AZ1070,45-54,South America,Retail,4.4
+AZ1071,35-44,South America,Mobile App,3.7
+AZ1072,35-44,Europe,Online,4.9
+AZ1073,45-54,Asia-Pacific,Mobile App,3.2
+AZ1074,35-44,Europe,Retail,4.9
+AZ1075,45-54,North America,Online,3.4
+AZ1076,18-24,North America,Retail,3.3
+AZ1077,18-24,South America,Mobile App,3.8
+AZ1078,45-54,Asia-Pacific,Mobile App,4.9
+AZ1079,35-44,North America,Online,3.8
+AZ1080,25-34,Asia-Pacific,Mobile App,3.5
+AZ1081,25-34,South America,Online,4.7
+AZ1082,35-44,Asia-Pacific,Retail,4.9
+AZ1083,55+,North America,Retail,3.5
+AZ1084,55+,North America,Online,3.4
+AZ1085,18-24,South America,Retail,3.3
+AZ1086,35-44,South America,Mobile App,3.2
+AZ1087,55+,South America,Retail,4
+AZ1088,35-44,Europe,Retail,4.9
+AZ1089,35-44,North America,Mobile App,3.2
+AZ1090,45-54,Asia-Pacific,Mobile App,3.9
+AZ1091,45-54,Europe,Mobile App,3.6
+AZ1092,35-44,North America,Retail,4.3
+AZ1093,45-54,Asia-Pacific,Retail,3.6
+AZ1094,55+,South America,Online,3.9
+AZ1095,25-34,South America,Online,3.2
+AZ1096,45-54,North America,Mobile App,3.1
+AZ1097,45-54,North America,Retail,3.6
+AZ1098,55+,North America,Online,4.5
+AZ1099,18-24,South America,Online,4.6
+AZ1100,45-54,Europe,Online,3.3
