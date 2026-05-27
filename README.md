@@ -13,7 +13,7 @@
 # Insights/Analysis
 
 1.
-[1](/1_Categories.sql/)
+[1_Categories.SQL](/1_Categories.sql/)
 ```SQL
 SELECT
     a.category,
