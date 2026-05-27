@@ -1,16 +1,16 @@
-Introduction
+# Introduction
 
 ---
 
-Background
+# Background
 
 ---
 
-Tools Used
+# Tools Used
 
 ---
 
-Analysis
+# Insights/Analysis
 
 1.
 ```SQL
@@ -30,4 +30,4 @@ ORDER BY total_sales DESC;
 ```
 ---
 
-Conclusion
+# Conclusion
