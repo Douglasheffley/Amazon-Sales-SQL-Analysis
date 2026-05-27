@@ -1,26 +1,33 @@
-# 📊 Amazon Sales SQL Analysis
-
-## 🔍 Overview
-This project analyzes Amazon sales data to uncover trends in:
-- Category performance
-- Pricing vs demand
-- Customer satisfaction impact
-- Seasonal sales trends
+Introduction
 
 ---
 
-## 📈 Key Insights
-- 📊 Q4 shows the highest sales growth across most categories  
-- ⭐ Higher-rated products tend to generate more sales  
-- 💰 Pricing impact varies by category  
+Background
 
 ---
 
-## 🛠 Tools Used
-- PostgreSQL
-- SQL
-- VS Code
+Tools Used
 
 ---
 
-## 📂 Project Structure
+Analysis
+
+1.
+```SQL
+SELECT
+    a.category,
+    TO_CHAR(SUM(a.yearly_sales), '$999,999,999.00') AS total_sales,
+    rank () over (
+        order by SUM(a.yearly_sales) desc
+    ) As Ranking
+FROM amazonsales a
+GROUP BY a.category
+HAVING SUM(a.yearly_sales) > (
+    SELECT AVG(yearly_sales)
+    FROM amazonsales
+)
+ORDER BY total_sales DESC;
+```
+---
+
+Conclusion
