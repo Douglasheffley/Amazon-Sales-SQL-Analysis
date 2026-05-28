@@ -4,10 +4,10 @@
 
 # Tools Used
 
-Excel
-SQL
-PostgreSQL
-Power BI
+-Excel
+-SQL
+-PostgreSQL
+-Power BI
 
 ---
 
