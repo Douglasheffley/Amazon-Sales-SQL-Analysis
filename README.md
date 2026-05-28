@@ -93,7 +93,9 @@ Now the data is ready for analysis...
 
 # Analysis/Insights
 
-1.
+#### 1. Top Performing Categories By Sales
+
+Source SQL file can be found here:
 [1_Categories.SQL](/1_Categories.sql/)
 ```SQL
 SELECT
@@ -111,7 +113,7 @@ HAVING SUM(a.yearly_sales) > (
 ORDER BY total_sales DESC;
 ```
 
-## Category Sales Results
+#### Results Table From Query 1
 
 | Category     | Total Sales        | Ranking |
 |--------------|-------------------:|--------:|
@@ -126,7 +128,9 @@ ORDER BY total_sales DESC;
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
 
 
-2.
+#### 2. Relationship Between Sales and Ratings
+
+Source SQL file can be found here:
 [2_Ratings_Relationship_Sales.SQL](/2_Ratings_Relationship_Sales.sql/)
 ```SQL
 SELECT
@@ -140,6 +144,9 @@ LEFT JOIN amazondemographics c
     ON a.product_id = c.product_id
 GROUP BY c.customersatisfactionscore
 ORDER BY avg_yearly_sales DESC;
+
+#### Results Table From Query 2
+
 ```
 | Rating Group | Total Products | Avg Yearly Sales | Avg Reviews | Avg Price |
 |-------------|---------------:|-----------------:|------------:|----------:|
@@ -155,7 +162,9 @@ ORDER BY avg_yearly_sales DESC;
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_2" src="https://github.com/user-attachments/assets/6bfc4fbc-f76c-4054-aee3-12583632c797" />
 
 
-3.
+#### 3. Influence of Pricing on Product Demand
+
+Source SQL file can be found here:
 [3_Pricing_Demand.SQL](/3_Pricing_Demand.sql/)
 ```SQL
 SELECT
@@ -180,7 +189,9 @@ ORDER BY demand DESC;
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_3" src="https://github.com/user-attachments/assets/e2e776db-0379-48e0-8df9-5eadccfe2553" />
 
 
-4.
+#### 4. Quarterly Trends
+
+Source SQL file can be found here:
 [4_Quarterly_Trends.SQL](/4_Quarterly_Trends.sql/)
 ```SQL
 SELECT
@@ -218,8 +229,10 @@ ORDER BY q4_growth DESC;
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_4" src="https://github.com/user-attachments/assets/26403eea-38d9-43f8-8d85-6e25e9040004" />
 
 
-5.
-Query 1
+#### 5. Top Performing Categories By Sales
+##### Query 1
+
+Source SQL file can be found here:
 [5.1_Marketing_Investment.SQL](/5.1_Marketing_Investment.sql/)
 ```SQL
 SELECT
@@ -246,7 +259,9 @@ ORDER BY avg_yearly_sales DESC;
 
 
 
-Query 2
+##### Query 2
+
+Source SQL file can be found here:
 [5.2_Marketing_Investment.SQL](/5.2_Marketing_Investment.sql/)
 ```SQL
 SELECT 
