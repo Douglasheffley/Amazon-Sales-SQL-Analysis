@@ -2,15 +2,11 @@
 
 ---
 
-# Background
-
----
-
 # Tools Used
 
 ---
 
-# Insights/Analysis
+# Analysis
 
 1.
 [1_Categories.SQL](/1_Categories.sql/)
@@ -182,6 +178,12 @@ ORDER BY
 ...
 
 [5.2_SQL.csv](https://github.com/user-attachments/files/28301446/5.2_SQL.csv)
+
+---
+
+# Insights
+
+---
 
 
 ---
