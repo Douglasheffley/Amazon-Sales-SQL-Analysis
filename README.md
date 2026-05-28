@@ -1,20 +1,40 @@
 # Introduction
 
+### **About Me**
+
+#### In this project, I intend to demonstrate my knowledge of and skills in Data analyis (using SQL), Data Visualization (using Power BI), and data storytelling to capture all best practices and simplified yet insightful/powerful results.
+
+#### Exposure to SQL and Power BI has been gained previous to developing this project. However, the majority of the shown procuedures were completely self-taught through study and practice, marking it as an acceptable potential replacement to "work" experience.
+
+### **More About The Project**
+
+#### **You can find every section that corresponds to a specific step in the project**
+#### - Tools Used: This shows all the tools used to prep the data, conduct the analyses, and create visualizations
+#### - Data Cleaning: The methodology behind cleaning and prepping the data utilizing Excel (Also possible through SQL but chose to demonstrate knowledge in Excel in addition to SQL analyses)
+#### - Analysis: SQL queries that were written and the logic behind them... analysis will also include the visualizations to complete the data storytelling
+#### - Insights: Based on the analysis, this sections intends to demonstrate the communication piece of the data analyses, utilizing skills developed through education and experience
+
 ---
 
 # Tools Used
 
--Excel
+### Excel
+Excel was utilized to prep and clean the data for analysis. Procedures such as sorting, filtering, formulas, etc. were used to help standardize the data as a prerequisite to conducting the SQL queries. This tool can be be extremely useful, as it is the source of the original data and having it cleaned for others can be helpful to the organization, including employees such as key stakeholders or managers who are not equipped with SQL.
 
--SQL
+### SQL
+Analyses were performed utilizing SQL. Creating results that are intended to be insightful to those such as key stakeholders or managers can be crucial for making business decisions. SQL is a powerful tool for conducting these analyses due to many reasons, one of which being the fact that most organizations have many sources of data and large databases which can be limiting for an application like Excel.
 
--PostgreSQL
+### PostgreSQL
+The choice of software to manage the data for this project was PostgreSQL. The foundation of SQL remains the same across other software... queries can be quickly translated to other software such as MySQL.
 
--Power BI
+### Power BI
+Tableau was another option for data visualization, which can possess the same concepts as Power BI in creating visualizations. Power BI was utilized though to create visualizations for this project based on the analyses performed. Visualizations in this case can be extremely useful to those who may not be data-savvy, which is common throughout business. It also can be generally more useful for picturing how the data is behaving in certain instances for everyone, including data analysts.
 
 ---
 
 # Data Cleaning
+
+
 
 ---
 
