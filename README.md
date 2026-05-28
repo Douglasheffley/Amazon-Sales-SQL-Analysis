@@ -93,7 +93,7 @@ Now the data is ready for analysis...
 
 # Analysis/Insights
 
-#### 1. Top Performing Categories By Sales
+### 1. Top Performing Categories By Sales
 
 Source SQL file can be found here:
 [1_Categories.SQL](/1_Categories.sql/)
@@ -127,12 +127,16 @@ ORDER BY total_sales DESC;
 Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)|
 
 
-##### Visualization For Query 1
+#### Visualization For Query 1
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
 
 
-#### 2. Relationship Between Sales and Ratings
+#### Insights on Top Performing Categories
+- 
+
+
+### 2. Relationship Between Sales and Ratings
 
 Source SQL file can be found here:
 [2_Ratings_Relationship_Sales.SQL](/2_Ratings_Relationship_Sales.sql/)
@@ -162,12 +166,19 @@ ORDER BY avg_yearly_sales DESC;
 | 4.3         | 4              | $1,045,696.50    | 6184        | $965.59   |
 ...
 
-[2_SQL.csv](https://github.com/user-attachments/files/28301387/2_SQL.csv)
+Full Results Table: [2_SQL.csv](https://github.com/user-attachments/files/28301387/2_SQL.csv)
+
+
+#### Visualization For Query 2
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_2" src="https://github.com/user-attachments/assets/6bfc4fbc-f76c-4054-aee3-12583632c797" />
 
 
-#### 3. Influence of Pricing on Product Demand
+#### Insights on Relationship Between Sales and Ratings
+-
+
+
+### 3. Influence of Pricing on Product Demand
 
 Source SQL file can be found here:
 [3_Pricing_Demand.SQL](/3_Pricing_Demand.sql/)
@@ -193,12 +204,19 @@ ORDER BY demand DESC;
 | Smart Watch Model-27 | Audio | $35.02 | $702,406.00 | 20057.28 |
 ...
 
-[3_SQL.csv](https://github.com/user-attachments/files/28301421/3_SQL.csv)
+Full Results Table: [3_SQL.csv](https://github.com/user-attachments/files/28301421/3_SQL.csv)
+
+
+#### Visualization For Query 3
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_3" src="https://github.com/user-attachments/assets/e2e776db-0379-48e0-8df9-5eadccfe2553" />
 
 
-#### 4. Quarterly Trends
+#### Insights on Influence of Pricing on Product Demand
+-
+
+
+### 4. Quarterly Trends
 
 Source SQL file can be found here:
 [4_Quarterly_Trends.SQL](/4_Quarterly_Trends.sql/)
@@ -236,12 +254,19 @@ ORDER BY q4_growth DESC;
 #### Results Table From Query 4
 
 
-[4_SQL.csv](https://github.com/user-attachments/files/28301438/4_SQL.csv)
+Full Results Table: [4_SQL.csv](https://github.com/user-attachments/files/28301438/4_SQL.csv)
+
+
+#### Visualization For Query 4
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_4" src="https://github.com/user-attachments/assets/26403eea-38d9-43f8-8d85-6e25e9040004" />
 
 
-#### 5. Top Performing Categories By Sales
+#### Insights on Quarterly Trends
+-
+
+
+### 5. Products Marketing and Investment
 ##### Query 1
 
 Source SQL file can be found here:
@@ -271,8 +296,10 @@ ORDER BY avg_yearly_sales DESC;
 | Wireless Mouse Model-41 | Retail | South America | $1,580,353.00 | 4 |
 ...
 
-[5.1_SQL.csv](https://github.com/user-attachments/files/28301441/5.1_SQL.csv)
+Full Results Table: [5.1_SQL.csv](https://github.com/user-attachments/files/28301441/5.1_SQL.csv)
 
+
+##### Visualization For Query 5
 
 
 ##### Query 2
@@ -307,18 +334,26 @@ ORDER BY
 | Smart Watch Model-27 | 20057.28 | 45-54 | 4.1 |
 ...
 
-[5.2_SQL.csv](https://github.com/user-attachments/files/28301446/5.2_SQL.csv)
+Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/28301446/5.2_SQL.csv)
 
+
+#### Visualization For Query 5
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_5" src="https://github.com/user-attachments/assets/3b0d9fa6-73c5-4184-9d93-7358a15cc4ca" />
 📝 Note: Loading visual is the interactable map to identify top performing regions (ArcGIS)
 
 
+#### Insights on Products Marketing and Investment
+-
+
+
 ## Dashboard
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_6" src="https://github.com/user-attachments/assets/66243985-0977-4ebf-98d0-42fa98232881" />
+📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data
+📝 Note: Dashboard and all other visualizations have a background and cleaner look as seen in the original file
 
-
+Power BI file here: 
 
 
 ---
