@@ -128,6 +128,7 @@ Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/283008
 
 
 #### Visualization For Query 1
+Original Power BI file can be found here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
 
@@ -241,6 +242,10 @@ SELECT
 FROM amazonsales a
 GROUP BY a.category, a.product_name
 ORDER BY q4_growth DESC;
+
+#### Results Table From Query 4
+
+
 ```
 | Category     | Product                        | Q1 Sales    | Q2 Sales    | Q3 Sales    | Q4 Sales    | Q4 Growth |
 |--------------|--------------------------------|------------:|------------:|------------:|------------:|----------:|
@@ -250,9 +255,6 @@ ORDER BY q4_growth DESC;
 | Electronics  | Webcam Pro Model-18           | $304,774.00 | $342,313.00 | $316,917.00 | $509,018.00 | $187,683.33 |
 | Audio        | USB-C Hub Model-83           | $353,750.00 | $372,542.00 | $428,302.00 | $564,919.00 | $180,054.33 |
 ...
-
-#### Results Table From Query 4
-
 
 Full Results Table: [4_SQL.csv](https://github.com/user-attachments/files/28301438/4_SQL.csv)
 
@@ -299,7 +301,7 @@ ORDER BY avg_yearly_sales DESC;
 Full Results Table: [5.1_SQL.csv](https://github.com/user-attachments/files/28301441/5.1_SQL.csv)
 
 
-##### Visualization For Query 5
+#### Visualization For Query 5
 
 
 ##### Query 2
@@ -353,7 +355,7 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data
 📝 Note: Dashboard and all other visualizations have a background and cleaner look as seen in the original file
 
-Power BI file here: 
+Power BI file here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
 
 
 ---
