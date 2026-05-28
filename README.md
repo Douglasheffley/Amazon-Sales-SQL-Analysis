@@ -4,6 +4,15 @@
 
 # Tools Used
 
+Excel
+SQL
+PostgreSQL
+Power BI
+
+---
+
+# Data Cleaning
+
 ---
 
 # Analysis
@@ -38,6 +47,9 @@ ORDER BY total_sales DESC;
 
 [1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)|
 
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
+
+
 2.
 [2_Ratings_Relationship_Sales.SQL](/2_Ratings_Relationship_Sales.sql/)
 ```SQL
@@ -64,6 +76,9 @@ ORDER BY avg_yearly_sales DESC;
 
 [2_SQL.csv](https://github.com/user-attachments/files/28301387/2_SQL.csv)
 
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_2" src="https://github.com/user-attachments/assets/6bfc4fbc-f76c-4054-aee3-12583632c797" />
+
+
 3.
 [3_Pricing_Demand.SQL](/3_Pricing_Demand.sql/)
 ```SQL
@@ -85,6 +100,8 @@ ORDER BY demand DESC;
 ...
 
 [3_SQL.csv](https://github.com/user-attachments/files/28301421/3_SQL.csv)
+
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_3" src="https://github.com/user-attachments/assets/e2e776db-0379-48e0-8df9-5eadccfe2553" />
 
 
 4.
@@ -121,6 +138,8 @@ ORDER BY q4_growth DESC;
 ...
 
 [4_SQL.csv](https://github.com/user-attachments/files/28301438/4_SQL.csv)
+
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_4" src="https://github.com/user-attachments/assets/26403eea-38d9-43f8-8d85-6e25e9040004" />
 
 
 5.
@@ -178,6 +197,17 @@ ORDER BY
 ...
 
 [5.2_SQL.csv](https://github.com/user-attachments/files/28301446/5.2_SQL.csv)
+
+
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_5" src="https://github.com/user-attachments/assets/3b0d9fa6-73c5-4184-9d93-7358a15cc4ca" />
+📝 Note: Loading visual is the interactable map to identify top performing regions (ArcGIS)
+
+
+## Dashboard
+
+<img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_6" src="https://github.com/user-attachments/assets/66243985-0977-4ebf-98d0-42fa98232881" />
+
+
 
 ---
 
