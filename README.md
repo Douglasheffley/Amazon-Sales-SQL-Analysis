@@ -242,11 +242,11 @@ SELECT
 FROM amazonsales a
 GROUP BY a.category, a.product_name
 ORDER BY q4_growth DESC;
+```
 
 #### Results Table From Query 4
 
 
-```
 | Category     | Product                        | Q1 Sales    | Q2 Sales    | Q3 Sales    | Q4 Sales    | Q4 Growth |
 |--------------|--------------------------------|------------:|------------:|------------:|------------:|----------:|
 | Computers    | Wireless Mouse Model-77        | $280,339.00 | $317,301.00 | $338,340.00 | $522,834.00 | $210,840.67 |
@@ -342,7 +342,7 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 #### Visualization For Query 5
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_5" src="https://github.com/user-attachments/assets/3b0d9fa6-73c5-4184-9d93-7358a15cc4ca" />
-📝 Note: Loading visual is the interactable map to identify top performing regions (ArcGIS)
+-📝 Note: Loading visual is the interactable map to identify top performing regions (ArcGIS)
 
 
 #### Insights on Products Marketing and Investment
@@ -352,8 +352,8 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 ## Dashboard
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_6" src="https://github.com/user-attachments/assets/66243985-0977-4ebf-98d0-42fa98232881" />
-📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data
-📝 Note: Dashboard and all other visualizations have a background and cleaner look as seen in the original file
+-📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data
+-📝 Note: Dashboard and all other visualizations have a background and cleaner look as seen in the original file
 
 Power BI file here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
 
