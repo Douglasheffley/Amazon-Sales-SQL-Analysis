@@ -34,7 +34,60 @@ Tableau was another option for data visualization, which can possess the same co
 
 # Data Cleaning
 
+Proceeding are the following steps taken to prep and clean the data prior to performing analysis to ensure accuracy and efficiency
 
+## Step 1: Removing any duplicates
+Data can sometimes have duplicates which may skew or alter data results... emphasizing the importance of completing cleaning procedures prior to analyses
+
+Shown below are the previous first few rows (as an example) for the data table "Amazon_Big_Sales_Dataset_2026.csv"
+
+| Product_ID | Product_Name | Category | Price_USD | Review_Count | Q1_Sales | Q2_Sales | Q3_Sales | Q4_Sales | Yearly_Sales |
+|------------|--------------|----------|----------:|-------------:|---------:|---------:|---------:|---------:|-------------:|
+| AZ1001 | Power Bank Model-39 | Audio | 591.53 | 4399 | 72787 | 78832 | 87710 | 102347 | 341676 |
+| AZ1002 | External SSD Model-20 | Accessories | 647.02 | 9779 | 99951 | 108995 | 113397 | 134434 | 456777 |
+| AZ1003 | Smart Watch Model-72 | accessories | 419.88 | 9704 | 93945 | 96658 | 100185 | 128269 | 419057 |
+| AZ1004 | Graphics Card Model-97 | Electronics  | 214.91 | 6305 | 28784 | 31368 | 30196 | 39298 | 129646 |
+| AZ1004 | Graphics Card Model-97 | Electronics  | 214.91 | 6305 | 28784 | 31368 | 30196 | 39298 | 129646 |
+...
+
+### As seen in ROW 5
+There is a duplicate for the following:
+
+| Product_ID | Product_Name | Category | Price_USD | Review_Count | Q1_Sales | Q2_Sales | Q3_Sales | Q4_Sales | Yearly_Sales |
+|------------|--------------|----------|----------:|-------------:|---------:|---------:|---------:|---------:|-------------:|
+| AZ1004 | Graphics Card Model-97 | Electronics  | 214.91 | 6305 | 28784 | 31368 | 30196 | 39298 | 129646 |
+
+#### To identify (in the first place) and fix this issue we will perform a "Remove Duplicates' action in the "Data" tab
+
+## Step 2: Standardize the Data
+It is important to standardize the text, as when conducting analyses some values might be left out due to the error in standardization which is not good for obtaining accurate results after analysis
+
+#### To identify any errors in the cells, one option is to create filters for each column by hihlighting the headers and selecting "Filter" in the "Data" tab... This will identify any differences or null values
+There was a difference in spacing for the following:
+
+| Product_ID | Product_Name | Category | Price_USD | Review_Count | Q1_Sales | Q2_Sales | Q3_Sales | Q4_Sales | Yearly_Sales |
+|------------|--------------|----------|----------:|-------------:|---------:|---------:|---------:|---------:|-------------:|
+| AZ1004 | Graphics Card Model-97 | Electronics  | 214.91 | 6305 | 28784 | 31368 | 30196 | 39298 | 129646 |
+
+#### However, this is a spacing issue... Therefore, we will use "Trim ()" to remove any spaces in the entire table
+
+## Step 3: Check For More Required Data Cleaning
+At first glance, data may appear to be accurate. However, a few more short steps was taken to ensure this data was clean and prepped for analysis
+
+#### Additional actions were taken to identify anything else... "Sorting" to identify impossible values, "Unique ()" to identify any other differences, or all other steps that need to be taken...
+
+## The following is the cleaned and prepped table found in "Amazon_Big_Sales_Dataset_2026.csv", the same was done for "customer_segmentation_data.csv"
+
+| Product_ID | Product_Name                | Category     | Price_USD | Review_Count | Q1_Sales | Q2_Sales | Q3_Sales | Q4_Sales | Yearly_Sales |
+|-----------|-----------------------------|--------------|----------:|-------------:|---------:|---------:|---------:|---------:|-------------:|
+| AZ1001    | Power Bank Model-39         | Audio        | $591.53   | 4399         | 72787    | 78832    | 87710    | 102347   | 341676       |
+| AZ1002    | External SSD Model-20       | Accessories  | $647.02   | 9779         | 99951    | 108995   | 113397   | 134434   | 456777       |
+| AZ1003    | Smart Watch Model-72        | Accessories  | $419.88   | 9704         | 93945    | 96658    | 100185   | 128269   | 419057       |
+| AZ1004    | Graphics Card Model-97      | Electronics  | $214.91   | 6305         | 28784    | 31368    | 30196    | 39298    | 129646       |
+| AZ1005    | Mechanical Keyboard Model-53| Computers    | $1002.45  | 8880         | 199522   | 230831   | 243992   | 323063   | 997408       |
+...
+
+Now the data is ready for analysis...
 
 ---
 
