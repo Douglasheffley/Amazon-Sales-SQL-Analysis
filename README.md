@@ -5,8 +5,11 @@
 # Tools Used
 
 -Excel
+
 -SQL
+
 -PostgreSQL
+
 -Power BI
 
 ---
