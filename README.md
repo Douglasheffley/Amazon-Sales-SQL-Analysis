@@ -11,7 +11,8 @@
 #### **You can find every section that corresponds to a specific step in the project**
 #### - Tools Used: This shows all the tools used to prep the data, conduct the analyses, and create visualizations
 #### - Data Cleaning: The methodology behind cleaning and prepping the data utilizing Excel (Also possible through SQL but chose to demonstrate knowledge in Excel in addition to SQL analyses)
-#### - Analysis/Insights: SQL queries that were written and the logic behind them... analysis will also include the visualizations to complete the data storytelling... Based on the analysis, this sections intends to demonstrate the communication piece of the data analyses, utilizing skills developed through education and experience
+#### - Analysis: SQL queries that were written and the logic behind them... analysis will also include the visualizations to complete the data storytelling
+#### - Insights: Based on the analysis, this sections intends to demonstrate the communication piece of the data analyses, utilizing skills developed through education and experience
 
 ---
 
