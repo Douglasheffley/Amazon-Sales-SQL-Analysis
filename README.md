@@ -115,6 +115,7 @@ ORDER BY total_sales DESC;
 
 #### Results Table From Query 1
 
+
 | Category     | Total Sales        | Ranking |
 |--------------|-------------------:|--------:|
 | Accessories  | $23,999,776.00     | 1       |
@@ -123,7 +124,10 @@ ORDER BY total_sales DESC;
 | Computers    | $19,873,039.00     | 4       |
 ...
 
-[1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)|
+Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)|
+
+
+##### Visualization For Query 1
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
 
@@ -144,10 +148,11 @@ LEFT JOIN amazondemographics c
     ON a.product_id = c.product_id
 GROUP BY c.customersatisfactionscore
 ORDER BY avg_yearly_sales DESC;
+```
 
 #### Results Table From Query 2
 
-```
+
 | Rating Group | Total Products | Avg Yearly Sales | Avg Reviews | Avg Price |
 |-------------|---------------:|-----------------:|------------:|----------:|
 | 4.5         | 3              | $1,206,667.67    | 5955        | $265.79   |
@@ -176,6 +181,10 @@ SELECT
 FROM amazonsales a
 ORDER BY demand DESC;
 ```
+
+#### Results Table From Query 3
+
+
 | Product | Category | Price (USD) | Yearly Sales | Sales-to-Price Ratio |
 |----------|----------|-------------:|--------------:|----------------------:|
 | USB-C Hub Model-83 | Audio | $47.43 | $1,719,513.00 | 36253.70 |
@@ -224,6 +233,9 @@ ORDER BY q4_growth DESC;
 | Audio        | USB-C Hub Model-83           | $353,750.00 | $372,542.00 | $428,302.00 | $564,919.00 | $180,054.33 |
 ...
 
+#### Results Table From Query 4
+
+
 [4_SQL.csv](https://github.com/user-attachments/files/28301438/4_SQL.csv)
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_4" src="https://github.com/user-attachments/assets/26403eea-38d9-43f8-8d85-6e25e9040004" />
@@ -247,6 +259,10 @@ LEFT JOIN amazondemographics c
 GROUP BY a.product_name, c.purchasechannel, c.region
 ORDER BY avg_yearly_sales DESC;
 ```
+
+#### Results Table From Query 5
+
+
 | Product | Purchase Channel | Region | Avg Yearly Sales | Sales Rank |
 |----------|------------------|---------|-----------------:|-----------:|
 | USB-C Hub Model-83 | Online | North America | $1,719,513.00 | 1 |
@@ -279,6 +295,10 @@ ORDER BY
     sales_to_price_ratio DESC,
     avg_rating DESC;
 ```
+
+#### Results Table From Last Query
+
+
 | Product | Sales-to-Price Ratio | Age Group | Avg Rating |
 |----------|----------------------:|----------|-----------:|
 | USB-C Hub Model-83 | 36253.70 | 55+ | 4.5 |
