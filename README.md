@@ -128,7 +128,7 @@ Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/283008
 
 
 #### Visualization For Query 1
-Original Power BI file can be found here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
+##### Original Power BI file can be found here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_1" src="https://github.com/user-attachments/assets/c70d8761-cb9d-47dd-8c74-c4794b705329" />
 
@@ -352,10 +352,9 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 ## Dashboard
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_6" src="https://github.com/user-attachments/assets/66243985-0977-4ebf-98d0-42fa98232881" />
--📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data
--📝 Note: Dashboard and all other visualizations have a background and cleaner look as seen in the original file
+-📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data and Dashboard and all other visualizations have a background and cleaner look as seen in the original file
 
-Power BI file here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
+##### Power BI file here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
 
 
 ---
