@@ -75,7 +75,7 @@ There was a difference in spacing for the following:
 |------------|--------------|----------|----------:|-------------:|---------:|---------:|---------:|---------:|-------------:|
 | AZ1004 | Graphics Card Model-97 | Electronics  | 214.91 | 6305 | 28784 | 31368 | 30196 | 39298 | 129646 |
 
-#### However, this is a spacing issue... Therefore, we will use "Trim ()" to remove any spaces in the entire table
+#### However, this is a spacing issue in "Electronics" under "Category"... Therefore, we will use "Trim ()" to remove any spaces in the entire table
 
 ## Step 3: Check For More Required Data Cleaning
 At first glance, data may appear to be accurate. However, a few more short steps was taken to ensure this data was clean and prepped for analysis
