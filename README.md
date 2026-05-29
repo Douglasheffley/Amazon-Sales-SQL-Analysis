@@ -8,7 +8,13 @@
 
 ### **More About The Project**
 
-#### **You can find every section that corresponds to a specific step in the project**
+#### The datasets used for this project were sourced as mock data sets pertaining to Amazon to demonstrate knowledge and skills in analysis and visualization. The data is comprised of sales data including revenue as one table and customer demographics data as another table, calling for necessary joining of tables for the analyses.
+
+You can find the dataset for the sales table here: [Amazon Sales Table](/Amazon_Big_Sales_Dataset_2026.csv/)
+
+You can find the dataset for the sales table here: [Amazon Demographics Table](/customer_segmentation_data.csv/)
+
+### **You can find every section that corresponds to a specific step in the project**
 #### - Tools Used: This shows all the tools used to prep the data, conduct the analyses, and create visualizations
 #### - Data Cleaning: The methodology behind cleaning and prepping the data utilizing Excel (Also possible through SQL but chose to demonstrate knowledge in Excel in addition to SQL analyses)
 #### - Analysis: SQL queries that were written and the logic behind them... analysis will also include the visualizations to complete the data storytelling
@@ -116,13 +122,12 @@ ORDER BY total_sales DESC;
 #### Results Table From Query 1
 
 
-| Category     | Total Sales        | Ranking |
+| Category     | Total Yearly Sales     | Ranking |
 |--------------|-------------------:|--------:|
 | Accessories  | $23,999,776.00     | 1       |
 | Audio        | $21,969,021.00     | 2       |
 | Electronics  | $19,980,457.00     | 3       |
 | Computers    | $19,873,039.00     | 4       |
-...
 
 Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/28300880/1_SQL.csv)|
 
@@ -134,7 +139,10 @@ Full Results Table: [1_SQL.csv](https://github.com/user-attachments/files/283008
 
 
 #### Insights on Top Performing Categories
-- 
+
+- The categoy "Accessories" showed the top performance in yearly sales at $23,999,776.00.
+
+- "Computers" showed the lowest performance in yearly sales out of the 4 at $19,873,039.00, yet not a significant difference between the four.
 
 
 ### 2. Relationship Between Sales and Ratings
@@ -176,7 +184,10 @@ Full Results Table: [2_SQL.csv](https://github.com/user-attachments/files/283013
 
 
 #### Insights on Relationship Between Sales and Ratings
--
+
+- Average rating for all products sits at 3.98 out of 5, potentially calling for increase in product quality/delivery.
+
+- Ratings seem to not significantly affect sales, as seen in the scatter plot and differences between ratings as seen in the column chart.
 
 
 ### 3. Influence of Pricing on Product Demand
@@ -214,7 +225,12 @@ Full Results Table: [3_SQL.csv](https://github.com/user-attachments/files/283014
 
 
 #### Insights on Influence of Pricing on Product Demand
--
+
+- As seen in the scatterplot visualization, the price of products significantly affect the demad of the product.
+
+- The lowest priced products sit at the highest demand of around a value of 20k-35k out of 40.
+
+- Contrasting, highest priced products are at the lowest demand around 0-2k.
 
 
 ### 4. Quarterly Trends
@@ -265,7 +281,12 @@ Full Results Table: [4_SQL.csv](https://github.com/user-attachments/files/283014
 
 
 #### Insights on Quarterly Trends
--
+
+- Average quarterly sales are highest in the 4th quarter at 270K.
+
+- Quarterly sales gradually increase in order from Q1 to Q4, calling for more investment during Q3 and Q4 to maximize sales.
+
+- "Accessories" have the highest quarterly growth of around 28%.
 
 
 ### 5. Products Marketing and Investment
@@ -301,9 +322,6 @@ ORDER BY avg_yearly_sales DESC;
 Full Results Table: [5.1_SQL.csv](https://github.com/user-attachments/files/28301441/5.1_SQL.csv)
 
 
-#### Visualization For Query 5
-
-
 ##### Query 2
 
 Source SQL file can be found here:
@@ -325,7 +343,7 @@ ORDER BY
     avg_rating DESC;
 ```
 
-#### Results Table From Last Query
+#### Results Table For Last Query
 
 
 | Product | Sales-to-Price Ratio | Age Group | Avg Rating |
@@ -346,15 +364,40 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 
 
 #### Insights on Products Marketing and Investment
--
+
+- "USB-C Hub Model-83" along with other "Accessories" show the highest in total lifetime sales at around $1.5M. (This can be drilled down by year, products, and category in Power BI for further insights)
+
+- Region "North America" shows the highest in sales closing in on $2M.
+
+- Retail and online purchase channels are the higher performers at 30.4M-30.8M. Mobile apps are slightly less, yet still powerful, performers at $24.7M.
 
 
-## Dashboard
+## Dashboard/Drilldown
 
 <img width="1024" height="592" alt="1779983454986-912cb0c1-92ba-47bc-a18d-ac06a88f3e12_6" src="https://github.com/user-attachments/assets/66243985-0977-4ebf-98d0-42fa98232881" />
 -📝 Note: Dashboard and all other visualizations are completely interactable which can be useful for drilling down data and Dashboard and all other visualizations have a background and cleaner look as seen in the original file
 
 ##### Power BI file here: [Amazon Sales Visualizations Power BI](/Amazon_Sales_Analysis_Visualizations.pbix/)
+
+## Overview of Findings
+
+- Categories do not have significant differences between each other in sales. However, the category "Accessories" is ranked first amongst the other categories.
+
+- Ratings do not significantly affect the difference in sales and the average rating for all products is 3.98 out of 5.
+
+- Pricing of products significantly affect the demand of the products. 
+
+- Quarter 4 shows the highest sales of all quarters at an average of 270K in sales. "Accessories" show the highest quarterly growth at around 28%.
+
+### Recommendations
+
+- Continue investment in all categories and products, potentially focused slightly more towads "Accessories" to improve total yearly sales.
+
+- Average rating for all products lies around 3.98 out of 5. It can be beneficial to improve quality and delivery of products within these categories to increase the average rating. Additionally, further analysis can be conucted to identify hot spots in which products are rated lowest in the categories.
+
+- Pricing products around the lower-mid range may increase demand for products that are eligible to be priced at that range, increasing sales and profits overall.
+
+- Increase in investment into product inventory is necessary to prepare for Q3 and Q4 to maximize sales.
 
 
 ---
