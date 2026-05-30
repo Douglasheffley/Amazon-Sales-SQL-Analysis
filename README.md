@@ -389,6 +389,8 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 
 - Quarter 4 shows the highest sales of all quarters at an average of 270K in sales. "Accessories" show the highest quarterly growth at around 28%.
 
+- Top performing product is "USB-C Hub Model-83" along with other "Accessories," "North America" shows the highest in sales closing in on $2M, and retail and online purchase channels are the higher performers at 30.4M-30.8M.
+
 ### Recommendations
 
 - Continue investment in all categories and products, potentially focused slightly more towads "Accessories" to improve total yearly sales.
@@ -399,7 +401,11 @@ Full Results Table: [5.2_SQL.csv](https://github.com/user-attachments/files/2830
 
 - Increase in investment into product inventory is necessary to prepare for Q3 and Q4 to maximize sales.
 
+- Show more investment into "Acessory" products to increase inventory, keeping up with sales. Continue marketing investment worldwide with an emphasis on "North America." Emphasize marketing and investment focus on retail and online purchase channels.
+
 
 ---
 
 # Conclusion
+
+#### This project utilized tools such as Excel, PostgreSQL, SQL, and Power BI to offer valuable analysis and insights on realistic data in a realistic way. Significant findings along with some that can be perceived as reminders/updates, were showcased in this portfolio in an organized and "Data Analyst" fashion. Identifying factors in the sales for each product and category were analyzed, visualized, and communicated.
